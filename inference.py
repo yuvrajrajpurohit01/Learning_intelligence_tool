@@ -1,7 +1,7 @@
 import joblib
 import os
 
-MODEL_PATH = "models/completion_model.pkl"
+MODEL_PATH = "completion_model.pkl"
 
 def load_model():
     if not os.path.exists(MODEL_PATH):
